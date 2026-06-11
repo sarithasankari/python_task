@@ -1,0 +1,14 @@
+<table border="1">
+    <tr>
+        <th>Employee Name</th>
+        <th>Department</th>
+        <th>Salary</th>
+    </tr>
+    {% for emp in employee %}
+    <tr>
+        <td>{{ emp.Employee_Name }}</td>
+        <td>{{ emp.Department }}</td>
+        <td>{{ emp.Salary }}</td>
+    </tr>
+    {% endfor %}
+</table>
